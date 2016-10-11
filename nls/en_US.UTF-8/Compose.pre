@@ -5843,6 +5843,64 @@ XCOMM
 <dead_circumflex> <Cyrillic_ER>			: "Р̂"		# CYRILLIC CAPITAL LETTER ER WITH COMBINING CIRCUMFLEX ACCENT
 <Multi_key> <asciicircum> <Cyrillic_ER>		: "Р̂"		# CYRILLIC CAPITAL LETTER ER WITH COMBINING CIRCUMFLEX ACCENT
 
+XCOMM Elfdalian diacritics
+
+<dead_ogonek> <Y>                       : "Y̨"   # LATIN CAPITAL LETTER Y U0059 WITH COMBINING OGONEK U0328
+<Multi_key> <semicolon> <Y>             : "Y̨"   # LATIN CAPITAL LETTER Y U0059 WITH COMBINING OGONEK U0328
+<Multi_key> <Y> <semicolon>             : "Y̨"   # LATIN CAPITAL LETTER Y U0059 WITH COMBINING OGONEK U0328
+<Multi_key> <comma> <Y>                 : "Y̨"   # LATIN CAPITAL LETTER Y U0059 WITH COMBINING OGONEK U0328
+<Multi_key> <Y> <comma>                 : "Y̨"   # LATIN CAPITAL LETTER Y U0059 WITH COMBINING OGONEK U0328
+<dead_ogonek> <y>                       : "y̨"   # LATIN SMALL LETTER Y U0079 WITH COMBINING OGONEK U0328
+<Multi_key> <semicolon> <y>             : "y̨"   # LATIN SMALL LETTER Y U0079 WITH COMBINING OGONEK U0328
+<Multi_key> <y> <semicolon>             : "y̨"   # LATIN SMALL LETTER Y U0079 WITH COMBINING OGONEK U0328
+<Multi_key> <comma> <y>                 : "y̨"   # LATIN SMALL LETTER Y U0079 WITH COMBINING OGONEK U0328
+<Multi_key> <y> <comma>                 : "y̨"   # LATIN SMALL LETTER Y U0079 WITH COMBINING OGONEK U0328
+
+<dead_ogonek> <Aring>                   : "Ą̊"   # LATIN CAPITAL LETTER A U0041 WITH COMBINING OGONEK U0328
+<Multi_key> <semicolon> <Aring>         : "Ą̊"   # LATIN CAPITAL LETTER A U0041 WITH COMBINING OGONEK U0328
+<Multi_key> <Aring> <semicolon>         : "Ą̊"   # LATIN CAPITAL LETTER A U0041 WITH COMBINING OGONEK U0328
+<Multi_key> <comma> <Aring>             : "Ą̊"   # LATIN CAPITAL LETTER A U0041 WITH COMBINING OGONEK U0328
+<Multi_key> <Aring> <comma>             : "Ą̊"   # LATIN CAPITAL LETTER A U0041 WITH COMBINING OGONEK U0328
+<dead_ogonek> <aring>                   : "ą̊"   # LATIN SMALL LETTER A U0061 WITH COMBINING OGONEK U0328
+<Multi_key> <semicolon> <aring>         : "ą̊"   # LATIN SMALL LETTER A U0061 WITH COMBINING OGONEK U0328
+<Multi_key> <aring> <semicolon>         : "ą̊"   # LATIN SMALL LETTER A U0061 WITH COMBINING OGONEK U0328
+<Multi_key> <comma> <aring>             : "ą̊"   # LATIN SMALL LETTER A U0061 WITH COMBINING OGONEK U0328
+<Multi_key> <aring> <comma>             : "ą̊"   # LATIN SMALL LETTER A U0061 WITH COMBINING OGONEK U0328
+
+<dead_abovering> <A> <semicolon>        : "Ą̊"   # LATIN CAPITAL LETTER A U0041 WITH COMBINING OGONEK U0328
+<dead_abovering> <semicolon> <A>        : "Ą̊"   # LATIN CAPITAL LETTER A U0041 WITH COMBINING OGONEK U0328
+<dead_abovering> <A> <comma>            : "Ą̊"   # LATIN CAPITAL LETTER A U0041 WITH COMBINING OGONEK U0328
+<dead_abovering> <comma> <A>            : "Ą̊"   # LATIN CAPITAL LETTER A U0041 WITH COMBINING OGONEK U0328
+<Multi_key> <semicolon> <o> <A>         : "Ą̊"   # LATIN CAPITAL LETTER A U0041 WITH COMBINING OGONEK U0328
+<Multi_key> <o> <A> <semicolon>         : "Ą̊"   # LATIN CAPITAL LETTER A U0041 WITH COMBINING OGONEK U0328
+<Multi_key> <comma> <o> <A>             : "Ą̊"   # LATIN CAPITAL LETTER A U0041 WITH COMBINING OGONEK U0328
+<Multi_key> <o> <A> <comma>             : "Ą̊"   # LATIN CAPITAL LETTER A U0041 WITH COMBINING OGONEK U0328
+<Multi_key> <semicolon> <A> <asterisk>  : "Ą̊"   # LATIN CAPITAL LETTER A U0041 WITH COMBINING OGONEK U0328
+<Multi_key> <A> <asterisk> <semicolon>  : "Ą̊"   # LATIN CAPITAL LETTER A U0041 WITH COMBINING OGONEK U0328
+<Multi_key> <comma> <A> <asterisk>      : "Ą̊"   # LATIN CAPITAL LETTER A U0041 WITH COMBINING OGONEK U0328
+<Multi_key> <A> <asterisk> <comma>      : "Ą̊"   # LATIN CAPITAL LETTER A U0041 WITH COMBINING OGONEK U0328
+<Multi_key> <semicolon> <A> <A>         : "Ą̊"   # LATIN CAPITAL LETTER A U0041 WITH COMBINING OGONEK U0328
+<Multi_key> <A> <A> <semicolon>         : "Ą̊"   # LATIN CAPITAL LETTER A U0041 WITH COMBINING OGONEK U0328
+<Multi_key> <comma> <A> <A>             : "Ą̊"   # LATIN CAPITAL LETTER A U0041 WITH COMBINING OGONEK U0328
+<Multi_key> <A> <A> <comma>             : "Ą̊"   # LATIN CAPITAL LETTER A U0041 WITH COMBINING OGONEK U0328
+
+<dead_abovering> <a> <semicolon>        : "ą̊"   # LATIN SMALL LETTER A U0061 WITH COMBINING OGONEK U0328
+<dead_abovering> <semicolon> <a>        : "ą̊"   # LATIN SMALL LETTER A U0061 WITH COMBINING OGONEK U0328
+<dead_abovering> <a> <comma>            : "ą̊"   # LATIN SMALL LETTER A U0061 WITH COMBINING OGONEK U0328
+<dead_abovering> <comma> <a>            : "ą̊"   # LATIN SMALL LETTER A U0061 WITH COMBINING OGONEK U0328
+<Multi_key> <semicolon> <o> <a>         : "ą̊"   # LATIN SMALL LETTER A U0061 WITH COMBINING OGONEK U0328
+<Multi_key> <o> <a> <semicolon>         : "ą̊"   # LATIN SMALL LETTER A U0061 WITH COMBINING OGONEK U0328
+<Multi_key> <comma> <o> <a>             : "ą̊"   # LATIN SMALL LETTER A U0061 WITH COMBINING OGONEK U0328
+<Multi_key> <o> <a> <comma>             : "ą̊"   # LATIN SMALL LETTER A U0061 WITH COMBINING OGONEK U0328
+<Multi_key> <semicolon> <a> <asterisk>  : "ą̊"   # LATIN SMALL LETTER A U0061 WITH COMBINING OGONEK U0328
+<Multi_key> <a> <asterisk> <semicolon>  : "ą̊"   # LATIN SMALL LETTER A U0061 WITH COMBINING OGONEK U0328
+<Multi_key> <comma> <a> <asterisk>      : "ą̊"   # LATIN SMALL LETTER A U0061 WITH COMBINING OGONEK U0328
+<Multi_key> <a> <asterisk> <comma>      : "ą̊"   # LATIN SMALL LETTER A U0061 WITH COMBINING OGONEK U0328
+<Multi_key> <semicolon> <a> <a>         : "ą̊"   # LATIN SMALL LETTER A U0061 WITH COMBINING OGONEK U0328
+<Multi_key> <a> <a> <semicolon>         : "ą̊"   # LATIN SMALL LETTER A U0061 WITH COMBINING OGONEK U0328
+<Multi_key> <comma> <a> <a>             : "ą̊"   # LATIN SMALL LETTER A U0061 WITH COMBINING OGONEK U0328
+<Multi_key> <a> <a> <comma>             : "ą̊"   # LATIN SMALL LETTER A U0061 WITH COMBINING OGONEK U0328
+
 XCOMM APL support Geoff Streeter 2012-01-04
 
 XCOMM APL was initially an overstruck language. The original APL terminal was an IBM golfball
